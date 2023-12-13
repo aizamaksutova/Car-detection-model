@@ -1,4 +1,4 @@
-from detection_and_metrics import fit_cls_model
+from src.detection_and_metrics import fit_cls_model
 from numpy import load, int64
 from os.path import dirname, join
 from sklearn.metrics import accuracy_score
